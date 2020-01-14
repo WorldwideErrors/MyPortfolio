@@ -24,14 +24,18 @@
             </ul>
     </header>
     <div class="intro">
-        <h1 class="retroshadow"> Developing is like art, you start with a blank canvas
-            and you try to eliminate all errors in the end. </h1>
+        <h1 class="retroshadow">
+            Development is like art,<br/>
+            you start with a blank <br/>
+            canvas and you try to <br/>
+            eliminate all errors <br/>in the end. </h1>
     </div>
 <div class="WieIkBen" id="WieBenIk">
-
+    <h3 style="color: transparent">A</h3>
+    <br/>
     <h3>
         Wie ik ben
-    </h3>
+    </h3 >
     <p>
         LOREM ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
         nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec,
@@ -45,11 +49,12 @@
         Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
         viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
         Curabitur ullamcorper ultricies nisi. Nam eget dui.
+
     </p>
 </div>
 
-
 </body>
+    <script type="text/javascript" src="MenuClosingScript.js"></script>
 </html>
 
 <?php

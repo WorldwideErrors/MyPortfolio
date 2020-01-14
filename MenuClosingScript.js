@@ -1,13 +1,12 @@
-/*var menu = document.getElementById("menu-menu");
 var wie = document.getElementById("WieIkBen");
+var button = document.getElementById("menu-btn");
 
 wie.onclick = function () {
-    if (menu.name == "open") {
+    if (button.checked = true) {
         //shrink the box
-        menu.name == "dicht";
+        button.checked = false;
 
-    } else if (menu.name == "dicht"){
-        menu.name == "open"
+    } else if (button.checked = false ){
+        button.checked = true;
     }
 };
-*/
