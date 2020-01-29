@@ -16,10 +16,10 @@
         <a class="logo"><h2>Jeffrey van Tillo</h2></a>
         <input class="menu-btn" type="checkbox" id="menu-btn"/>
         <label class="menu-icon" for="menu-btn"><span class="nav-icon"></span></label>
-            <ul class="menu" id="menu-menu" name="dicht">
-                <li id="WieIkBen"><a href="#WieBenIk"><h2>CV</h2></a></li>
-                <li><a href="/"><h2>Projecten</h2></a></li>
-                <li><a href="/"><h2>Iets</h2></a></li>
+            <ul class="menu" id="menu-menu">
+                <li id="WieIkBen"><a href="#WieBenIk"><h2>Over mij</h2></a></li>
+                <li id="Portfolio"><a href="#PortfolioID"><h2>Projecten</h2></a></li>
+                <li id="Kennis"><a href="#KennisID"><h2>Vaardigheden</h2></a></li>
                 <li><a href="/"><h2>Contact</h2></a></li>
             </ul>
     </header>
@@ -28,35 +28,102 @@
             Development is like art,<br/>
             you start with a blank <br/>
             canvas and you try to <br/>
-            eliminate all errors <br/>in the end. </h1>
+            eliminate all errors in <br/>the end. </h1>
     </div>
 <div class="WieIkBen" id="WieBenIk">
-    <h3 style="color: transparent">A</h3>
+    <br/>
+    <br/>
     <br/>
     <h3>
-        Wie ik ben
-    </h3 >
+        Over mij
+    </h3>
+    <img src="" > 
     <p>
-        LOREM ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec,
-        vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
-        Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
-        viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
-        Curabitur ullamcorper ultricies nisi. Nam eget dui.
-        Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor. Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes,
-        nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec,
-        vulputate eget, arcu. In enim justo, rhoncus ut, imperdiet a, venenatis vitae, justo. Nullam dictum felis eu pede mollis pretium. Integer tincidunt. Cras dapibus.
-        Vivamus elementum semper nisi. Aenean vulputate eleifend tellus. Aenean leo ligula, porttitor eu, consequat vitae, eleifend ac, enim. Aliquam lorem ante, dapibus in,
-        viverra quis, feugiat a, tellus. Phasellus viverra nulla ut metus varius laoreet. Quisque rutrum. Aenean imperdiet. Etiam ultricies nisi vel augue.
-        Curabitur ullamcorper ultricies nisi. Nam eget dui.
+
+        A <BR/>
+        B <BR/>
+        C <BR/>
+        D <BR/>
+        E <BR/>
+        F <BR/>
+        G <BR/>
+
 
     </p>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
 </div>
-
+<div class="Portfolio" id="PortfolioID">
+    <br/>
+    <br/>
+    <br/>
+    <h3>
+        Projecten
+    </h3>
+    <p style="background-color: black">
+        A <BR/>
+        B <BR/>
+        C <BR/>
+        D <BR/>
+        E <BR/>
+        F <BR/>
+        G <BR/>
+        H <BR/>
+        I <BR/>
+        J <BR/>
+        K <BR/>
+        L <BR/>
+        M <BR/>
+        N <BR/>
+        O <BR/>
+        P <BR/>
+        Q <BR/>
+        R <BR/>
+        S <BR/>
+    </p>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+</div>
+<div class="Kennis" id="KennisID">
+    <br/>
+    <br/>
+    <br/>
+    <h3>
+        Kennis en Vaardigheden
+    </h3>
+    <p>
+        A <BR/>
+        B <BR/>
+        C <BR/>
+        D <BR/>
+        E <BR/>
+        F <BR/>
+        G <BR/>
+        H <BR/>
+        I <BR/>
+        J <BR/>
+        K <BR/>
+        L <BR/>
+        M <BR/>
+        N <BR/>
+        O <BR/>
+        P <BR/>
+        Q <BR/>
+        R <BR/>
+        S <BR/>
+    </p>
+    <br/>
+    <br/>
+    <br/>
+    <br/>
+</div>
 </body>
-    <script type="text/javascript" src="MenuClosingScript.js"></script>
 </html>
-
+<script type="text/javascript" src="MenuClosingScript.js"></script>
 <?php
 /**
  * Created by PhpStorm.

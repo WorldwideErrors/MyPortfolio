@@ -1,131 +1,139 @@
+/*------------------------------------
+Body en a href Styling
+------------------------------------*/
 
-    body {
-        margin: 0;
-        font-family: 'Druk Wide Web Medium';
-        background-color: #40B8A8;
+body {
+    margin: 0;
+    font-family: 'Druk Wide Web Medium';
+    background-color: white;
+}
 
-    }
+a{
+    color: #000000;
+    text-decoration: none;
+}
+/*------------------------------------
+Navigatie Styling
+------------------------------------*/
 
-    a{
-        color: #000000;
-        text-decoration: none;
-    }
+.header{
+    background-color: #ffffff;
+    box-shadow: 0 5px 4px 0 rgba(0,0,0,.2);
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-weight: 300;
 
+}
 
-    .header{
-        background-color: #ffffff;
-        box-shadow: 5px 5px 4px 0 rgba(0,0,0,.1);
-        position: fixed;
-        width: 100%;
-        z-index: 10;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        font-weight: 300;
+.header ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    overflow: hidden;
+    background-color: white;
+}
 
-    }
+.header ul a{
+    display: block;
+    outline: 1px solid #ffffff;
+    padding: 10px;
+    border-right: 1px solid #ffffff;
+    text-decoration: none;
+}
 
-    .header ul{
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        overflow: hidden;
-        background-color: white;
-    }
+.header ul a:hover{
+    background-color: #ddd;
+}
+.header .logo{
+    float: left;
+    display: block;
+    font-size: 26.2px;
+    padding-left: 20px;
+    text-decoration: underline black ;
 
-    .header ul a{
-        display: block;
-        outline: 1px solid #ffffff;
-        padding: 10px;
-        border-right: 1px solid #ffffff;
-        text-decoration: none;
-    }
+}
 
-    .header ul a:hover{
-        background-color: #ddd;
-    }
-    .header .logo{
-        float: left;
-        display: block;
-        font-size: 26.2px;
-        padding-left: 20px;
-        text-decoration: underline black ;
+a .logo{
+    font-stretch: 100%;
+}
+.header .menu{
+    clear: both;
+    max-height: 0;
+    transition: max-height .2s ease-out;
+}
 
-    }
+.header .menu .t {
+    clear: both;
+    max-height: 350px;
+    transition: max-height .2s ease-in;
+}
 
-    a .logo{
-        font-stretch: 100%;
-    }
-    .header .menu{
-        clear: both;
-        max-height: 0;
-        transition: max-height .2s ease-out;
-    }
+.header .menu-icon{
+    outline: 1px solid rgba(255, 0, 0, 0);
+    padding: 32px ;
+    position: relative;
+    float: right;
+    cursor: pointer;
+}
 
-    .header .menu .t {
-        clear: both;
-        max-height: 350px;
-        transition: max-height .2s ease-in;
-    }
+.header .menu-icon .nav-icon{
+    background-color: #333;
+    display: block;
+    height: 5px;
+    width: 40px;
+    position: relative;
+    transition: background .2s ease-out;
+}
 
-    .header .menu-icon{
-        outline: 1px solid rgba(255, 0, 0, 0);
-        padding: 32px ;
-        position: relative;
-        float: right;
-        cursor: pointer;
-    }
+.header .menu-icon .nav-icon:before{
+    background-color: #333333;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+    top: 15px;
+}
 
-    .header .menu-icon .nav-icon{
-        background-color: #333;
-        display: block;
-        height: 5px;
-        width: 40px;
-        position: relative;
-        transition: background .2s ease-out;
-    }
+.header .menu-icon .nav-icon:after{
+    background-color: #333333;
+    content: "";
+    display: block;
+    height: 100%;
+    position: absolute;
+    transition: all .2s ease-out;
+    width: 100%;
+    top: -15px;
+}
 
-    .header .menu-icon .nav-icon:before{
-        background-color: #333333;
-        content: "";
-        display: block;
-        height: 100%;
-        position: absolute;
-        transition: all .2s ease-out;
-        width: 100%;
-        top: 15px;
-    }
+.header .menu-btn{
+    display: none;
+}
 
-    .header .menu-icon .nav-icon:after{
-        background-color: #333333;
-        content: "";
-        display: block;
-        height: 100%;
-        position: absolute;
-        transition: all .2s ease-out;
-        width: 100%;
-        top: -15px;
-    }
+.header .menu-btn:checked ~ .menu{
+    max-height: 350px;
+}
 
-    .header .menu-btn{
-        display: none;
-    }
+/*------------------------------------
+Intro Styling
+------------------------------------*/
+.intro{
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;;
+    padding-top: 160px;
+    padding-bottom: 150px;
+    text-align: center;
+    z-index: 5;
+    box-shadow: 0 5px 4px 0 rgba(0,0,0,.2);
 
-    .header .menu-btn:checked ~ .menu{
-        max-height: 350px;
-    }
-    .intro{
-        display: block;
-        padding-left: 50px;
-        padding-right: 50px;;
-        padding-top: 160px;
-        padding-bottom: 150px;
-        text-align: center;
-        z-index: 5;
-        box-shadow: 0 5px 5px 4px rgba(0,0,0,.2);
-
-        background: url("https://cdn.pixabay.com/photo/2019/09/05/10/53/dreary-4453740_1280.jpg");
-        background-size: cover;
-    }
+    background: url("https://cdn.pixabay.com/photo/2015/12/08/00/49/grand-canyon-1082079_1280.jpg");
+    background-size: cover;
+}
 .intro h1{
     margin-top: 210px;
     text-align: left;
@@ -133,51 +141,129 @@
     padding-right: 50px;
 }
 
-    .WieIkBen{
-        display: block;
-        padding-left: 100px;
-        padding-right: 100px;;
-        padding-top: 0;
-    }
-    h3{
-        font-family: 'Druk Wide Web Medium';
-        margin-right: 0;
-        margin-bottom: 0;
-        letter-spacing: 1px;
-        text-transform: uppercase;
-        color: #0A0A0A;
-        font-size: 22.4px;
-        margin-left: 11px;
-        font-weight: 500;
-        margin-top: 40px;
-    }
-    h2{
-        margin: 0 30px 0 0 ;
-        padding: 15px;
-    }
+.intro{
+    color: white;
+    text-transform: uppercase;
+    text-outline: black 40px;
+}
 
-    p{
-        margin: 10px;
-        font-size: 1.4em;
-        font-family: "Maison Neue Red Bull Demi";
-    }
-    .intro{
-        color: white;
-        text-transform: uppercase;
-        text-outline: black 40px;
-    }
+/*------------------------------------
+Lettertype Styling
+------------------------------------*/
 
-    .break{
-        color: transparent;
-    }
+h3{
+    font-family: 'Druk Wide Web Medium';
+    margin-right: 0;
+    margin-bottom: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 22.4px;
+    margin-left: 11px;
+    font-weight: 500;
+    margin-top: 40px;
+    color: orangered;
 
-    .WieIkBen h1{
-        margin: 30px;
-    }
+}
 
-    /*.header .ul #WieBenIk li a:target ~ .menu {
-        clear: none;
-        max-height: 0;
-        transition: max-height .2s ease-in;
+h2{
+    margin: 0 30px 0 0 ;
+    padding: 15px;
+}
 
-    }*/
+p{
+    margin: 10px 10px 0 10px;
+    font-size: 1.4em;
+    font-family: "Maison Neue Red Bull Demi";
+}
+h4{
+    margin: 10px;
+    font-family: "Maison Neue Red Bull Demi";
+}
+
+/*------------------------------------
+Breaks en Borders Styling
+------------------------------------*/
+
+.break{
+    color: transparent;
+}
+
+.Border1{
+    display: block;
+    padding-left: 50px;
+    padding-right: 50px;;
+    padding-top: 160px;
+    padding-bottom: 150px;
+    z-index: 5;
+    box-shadow: 0 5px 4px 0 rgba(0,0,0,.2);
+    background: rgb(20, 20, 20);
+    background-size: cover;
+}
+.Border1 h1 {
+    margin-top: 10px;
+    text-align: left;
+    padding-left: 60px;
+    padding-right: 50px;
+    font-family: 'Druk Wide Web Medium';
+    color: transparent;
+}
+/*------------------------------------
+Over Mij Styling
+------------------------------------*/
+
+.WieIkBen{
+    display: block;
+    padding-left: 100px;
+    padding-right: 100px;;
+    padding-top: 0;
+    color: black;
+    background-color: white;
+}
+
+.WieIkBen h1{
+    margin: 30px;
+}
+
+.WieIkBen .WieIkBen{
+    background-color: black;
+}
+
+/*------------------------------------
+Projecten Styling
+------------------------------------*/
+
+.Portfolio .Portfolio{
+    background-color: black;
+}
+
+.Portfolio{
+    display: block;
+    padding-left: 100px;
+    padding-right: 100px;;
+    padding-top: 0;
+    background-color: black;
+    color: white;
+}
+
+
+.Portfolio p{
+    background-color: black;
+}
+
+/*------------------------------------
+Kennis en vaardigheden Styling
+------------------------------------*/
+
+.Kennis{
+    display: block;
+    padding-left: 100px;
+    padding-right: 100px;;
+    padding-top: 0;
+    color: black;
+    background-color: white;
+}
+
+
+.Kennis .Kennis{
+    background-color: black;
+}
