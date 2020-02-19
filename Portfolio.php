@@ -20,7 +20,7 @@
                 <li id="WieIkBen"><a href="#WieBenIk"><h2>Over mij</h2></a></li>
                 <li id="Portfolio"><a href="#PortfolioID"><h2>Projecten</h2></a></li>
                 <li id="Kennis"><a href="#KennisID"><h2>Vaardigheden</h2></a></li>
-                <li><a href="/"><h2>Contact</h2></a></li>
+                <li id="Contact"><a href="#ContactID"><h2>Contact</h2></a></li>
             </ul>
     </header>
     <div class="intro">
@@ -96,25 +96,15 @@
         Kennis en Vaardigheden
     </h3>
     <p>
-        A <BR/>
-        B <BR/>
-        C <BR/>
-        D <BR/>
-        E <BR/>
-        F <BR/>
-        G <BR/>
-        H <BR/>
-        I <BR/>
-        J <BR/>
-        K <BR/>
-        L <BR/>
-        M <BR/>
-        N <BR/>
-        O <BR/>
-        P <BR/>
-        Q <BR/>
-        R <BR/>
-        S <BR/>
+        HTML <BR/>
+        CSS <BR/>
+        PHP <BR/>
+        LARAVEL <BR/>
+        C# <BR/>
+        JAVA <BR/>
+        MYSQL <BR/>
+        MSSQL <BR/>
+
     </p>
     <br/>
     <br/>
@@ -122,6 +112,21 @@
     <br/>
 </div>
 </body>
+<div class="Contact" id="ContactID">
+    <br/>
+    <br/>
+    <lu class="Contacticons"></lu>
+    <lu class="Contacticons">
+
+        <li class="contactitems"><a href="https://github.com/WorldwideErrors"><img src="Afbeeldingen/GitHub-Mark-64px.png" alt="x" ></a>
+        <a href="https://www.linkedin.com/in/jeffrey-van-tillo-374180192/"><img src="Afbeeldingen/LinkedIn.png" alt="x"></a>
+        <a href="mailto:jeffreyvantillo@gmail.com"><img src="Afbeeldingen/Mail.png" alt="x" ></a></li>
+    </lu>
+    <lu class="Contacticons"></lu>
+    <br/>
+    <br/>
+    <br/>
+</div>
 </html>
 <script type="text/javascript" src="MenuClosingScript.js"></script>
 <?php
